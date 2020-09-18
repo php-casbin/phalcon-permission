@@ -1,0 +1,26 @@
+{
+    "name": "casbin/phalcon-permission",
+    "description": "An authorization library that supports access control models like ACL, RBAC, ABAC in Phalcon.",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "yikang",
+            "email": "1115610574@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-phalcon": "~4.0.0-beta.2",
+        "casbin/casbin": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phalcon\\Permission\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Phalcon\\Permission\\Tests\\": "tests/"
+        }
+    }
+}
